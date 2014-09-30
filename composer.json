@@ -1,5 +1,5 @@
 {
-    "name": "herrera-io/doctrine-dateinterval",
+    "name": "dizzy7/doctrine-dateinterval",
     "description": "Supports DateInterval in Doctrine DBAL and ORM.",
     "keywords": ["doctrine", "date", "interval"],
     "homepage": "http://herrera-io.github.com/php-doctrine-dateinterval",
@@ -9,14 +9,18 @@
             "name": "Kevin Herrera",
             "email": "kevin@herrera.io",
             "homepage": "http://kevin.herrera.io"
+        },
+        {
+            "name": "Evgeniy Zatsepin",
+            "email": "7dizzy7@gmail.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/herrera-io/php-doctrine-dateinterval/issues"
+        "issues": "https://github.com/dizzy7/php-doctrine-dateinterval/issues"
     },
     "require": {
         "php": ">=5.3.3",
-        "doctrine/dbal": "~2.2,>=2.2.3",
+        "doctrine/dbal": "~2.4",
         "herrera-io/date-interval": "~1.1"
     },
     "require-dev": {
