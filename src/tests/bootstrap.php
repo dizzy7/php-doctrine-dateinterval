@@ -5,9 +5,9 @@ $loader->add('Doctrine\\Tests', __DIR__ . '/../vendors/doctrine/dbal/tests');
 $loader->add('Doctrine\\Tests', __DIR__ . '/../vendors/doctrine/orm/tests');
 
 use Doctrine\DBAL\Types\Type;
-use Herrera\Doctrine\DBAL\Types\DateIntervalType;
+use Dizzy7\Doctrine\DBAL\Types\DateIntervalType;
 
 Type::addType(
     DateIntervalType::DATEINTERVAL,
-    'Herrera\\Doctrine\\DBAL\\Types\\DateIntervalType'
+    'Dizzy7\\Doctrine\\DBAL\\Types\\DateIntervalType'
 );

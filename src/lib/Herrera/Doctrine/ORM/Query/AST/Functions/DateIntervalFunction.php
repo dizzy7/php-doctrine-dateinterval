@@ -1,6 +1,6 @@
 <?php
 
-namespace Herrera\Doctrine\ORM\Query\AST\Functions;
+namespace Dizzy7\Doctrine\ORM\Query\AST\Functions;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\ORM\Query\AST\Functions\FunctionNode;

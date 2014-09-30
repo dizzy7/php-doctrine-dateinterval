@@ -1,6 +1,6 @@
 <?php
 
-namespace Herrera\Doctrine\DBAL\Types;
+namespace Dizzy7\Doctrine\DBAL\Types;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
 use Doctrine\DBAL\Types\BigIntType;

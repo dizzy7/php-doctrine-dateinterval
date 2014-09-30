@@ -1,6 +1,6 @@
 <?php
 
-namespace Herrera\Doctrine\ORM\Query\AST\Functions\Tests;
+namespace Dizzy7\Doctrine\ORM\Query\AST\Functions\Tests;
 
 use DateInterval;
 use Doctrine\ORM\EntityManager;
@@ -40,7 +40,7 @@ class DateIntervalFunctionTest extends PHPUnit_Framework_TestCase
 
         $this->em->getConfiguration()->addCustomDatetimeFunction(
             'DATE_INTERVAL',
-            'Herrera\\Doctrine\\ORM\\Query\\AST\\Functions\\DateIntervalFunction'
+            'Dizzy7\\Doctrine\\ORM\\Query\\AST\\Functions\\DateIntervalFunction'
         );
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Herrera\Doctrine\DBAL\Types\Tests;
+namespace Dizzy7\Doctrine\DBAL\Types\Tests;
 
 use DateInterval;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
