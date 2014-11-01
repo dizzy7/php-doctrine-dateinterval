@@ -4,6 +4,10 @@ namespace Dizzy7\Doctrine\ORM\Query\AST\Functions\Tests;
 
 use DateInterval;
 use Doctrine\ORM\EntityManager;
+use Doctrine\ORM\Mapping\Column;
+use Doctrine\ORM\Mapping\GeneratedValue;
+use Doctrine\ORM\Mapping\Id;
+use Doctrine\ORM\Mapping\Table;
 use Doctrine\ORM\Query\Parser;
 use Doctrine\ORM\Tools\Setup;
 use PHPUnit_Framework_TestCase;

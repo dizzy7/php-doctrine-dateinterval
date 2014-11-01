@@ -26,7 +26,8 @@ class DateIntervalType extends BigIntType
      */
     public function convertToDatabaseValue($value, AbstractPlatform $platform)
     {
-        return (null === $value) ? null : DateInterval::toSeconds($value);
+        $di = new DateInterval('P1D');
+        return (null === $value) ? null : $di->toSeconds($value);
     }
 
     /**

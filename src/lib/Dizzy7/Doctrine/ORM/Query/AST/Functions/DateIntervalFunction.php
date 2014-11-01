@@ -29,7 +29,8 @@ class DateIntervalFunction extends FunctionNode
      */
     public function getSql(SqlWalker $sqlWalker)
     {
-        return DateInterval::toSeconds(new DateInterval(
+        $di = new DateInterval('P1D');
+        return $di->toSeconds(new DateInterval(
             $this->intervalSpec->value
         ));
     }
